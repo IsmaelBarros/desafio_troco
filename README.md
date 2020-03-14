@@ -1,12 +1,19 @@
 # desafio_troco
 
-<p> A api recebe uma request POST com 2 parametros: preço e pagameneto em formato json. Exemplo {"preco": 34.56, "pgto: 50"}</p>
+<p>Enviado uma request POST na url: http://127.0.0.1:8000/troco/ com 2 parametros: preço e pagameneto em formato json. Exemplo {"preco": 34.56, "pgto: 50"}</p>
 
-<p>Enviado uma request POST na url: http://127.0.0.1:8000/troco/</p>
-<p>A url http://127.0.0.1:8000/lista_detalhes/  retona uma response GET listando os trocos. *O troco é fornecido com o menor número de notas e moedas possiveis</p>
-<p>http://127.0.0.1:8000/troco_detalhe/4/ retorna um response GET com um troco especifico.</p>
+![post_tela](https://github.com/ismaemahh/desafio_troco/blob/master/Post_tela.JPG)
+
+<p>A request GET na url http://127.0.0.1:8000/lista_detalhes/  lista os trocos. *O troco é fornecido com o menor número de notas e moedas possiveis</p>
+
+![get_lista](https://github.com/ismaemahh/desafio_troco/blob/master/GET_lista_tela.JPG)
+
+<p>A request GET na url http://127.0.0.1:8000/troco_detalhe/4/ retorna os dados de um troco especifico.</p>
 <p>Formato dos dados de troco</p>
 
+![get_id](https://github.com/ismaemahh/desafio_troco/blob/master/GET_getID_tela.JPG)
+
+<p>Exemplo:cahve "nota_10_reais" identifica da nota ou moeda, valor 4 indica a quantidade de notas/moedas.</p>
 <p>  
   <li>{"_id": 4,</li>
   <li>"troco": 96.41,</li>
