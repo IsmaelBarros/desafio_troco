@@ -9,11 +9,11 @@
 ![get_lista](https://github.com/ismaemahh/desafio_troco/blob/master/GET_lista_tela.JPG)
 
 <p>A request GET na url http://127.0.0.1:8000/troco_detalhe/4/ retorna os dados de um troco especifico.</p>
-<p>Formato dos dados de troco</p>
 
 ![get_id](https://github.com/ismaemahh/desafio_troco/blob/master/GET_getID_tela.JPG)
 
-<p>Exemplo:cahve "nota_10_reais" identifica da nota ou moeda, valor 4 indica a quantidade de notas/moedas.</p>
+<p>Formato dos dados de troco</p>
+<p>Exemplo:chave "nota_10_reais" identifica a nota ou moeda, valor 4 indica a quantidade de notas/moedas.</p>
 <p>  
   <li>{"_id": 4,</li>
   <li>"troco": 96.41,</li>
