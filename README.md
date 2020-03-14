@@ -1,4 +1,4 @@
-# desafio_troco
+# Desafio Troco
 
 <p>Enviado uma request POST na url: http://127.0.0.1:8000/troco/ com 2 parametros: preço e pagameneto em formato json. Exemplo {"preco": 34.56, "pgto: 50"}</p>
 
@@ -24,6 +24,10 @@
   <li>"moeda_10_centavos": 4,</li> 
   <li>"moeda_1_centavo": 1}</li>  
 </p>
+
+<p>Foi utilizado o banco de dados mongoDB para persistência dos dados</p>
+
+![mongodb_tela](https://github.com/ismaemahh/desafio_troco/blob/master/mongoDB_tela.JPG)
 
 
 <h4>Instalação das seguintes dependencias:<h4>
